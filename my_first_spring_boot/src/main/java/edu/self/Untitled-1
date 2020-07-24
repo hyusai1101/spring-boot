@@ -1,0 +1,1177 @@
+vagrant@localhost /]$ sudo yum install -y java-1.8.0-openjdk-devel.x86_64
+読み込んだプラグイン:langpacks, priorities, update-motd
+amzn2-core                                                                                         | 3.7 kB  00:00:00     
+依存性の解決をしています
+--> トランザクションの確認を実行しています。
+---> パッケージ java-1.8.0-openjdk-devel.x86_64 1:1.8.0.252.b09-2.amzn2.0.1 を インストール
+--> 依存性の処理をしています: java-1.8.0-openjdk(x86-64) = 1:1.8.0.252.b09-2.amzn2.0.1 のパッケージ: 1:java-1.8.0-openjdk-devel-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libjvm.so()(64bit) のパッケージ: 1:java-1.8.0-openjdk-devel-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libjava.so()(64bit) のパッケージ: 1:java-1.8.0-openjdk-devel-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libX11.so.6()(64bit) のパッケージ: 1:java-1.8.0-openjdk-devel-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> トランザクションの確認を実行しています。
+---> パッケージ java-1.8.0-openjdk.x86_64 1:1.8.0.252.b09-2.amzn2.0.1 を インストール
+--> 依存性の処理をしています: xorg-x11-fonts-Type1 のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libpng15.so.15(PNG15_0)(64bit) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libasound.so.2(ALSA_0.9.0rc4)(64bit) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libasound.so.2(ALSA_0.9)(64bit) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libXcomposite(x86-64) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: gtk2(x86-64) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: fontconfig(x86-64) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libpng15.so.15()(64bit) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libgif.so.4()(64bit) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libasound.so.2()(64bit) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libXtst.so.6()(64bit) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libXrender.so.1()(64bit) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libXi.so.6()(64bit) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libXext.so.6()(64bit) のパッケージ: 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64
+---> パッケージ java-1.8.0-openjdk-headless.x86_64 1:1.8.0.252.b09-2.amzn2.0.1 を インストール
+--> 依存性の処理をしています: tzdata-java >= 2015d のパッケージ: 1:java-1.8.0-openjdk-headless-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: copy-jdk-configs >= 3.3 のパッケージ: 1:java-1.8.0-openjdk-headless-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: pcsc-lite-libs(x86-64) のパッケージ: 1:java-1.8.0-openjdk-headless-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: lksctp-tools(x86-64) のパッケージ: 1:java-1.8.0-openjdk-headless-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: jpackage-utils のパッケージ: 1:java-1.8.0-openjdk-headless-1.8.0.252.b09-2.amzn2.0.1.x86_64
+--> 依存性の処理をしています: cups-libs(x86-64) のパッケージ: 1:java-1.8.0-openjdk-headless-1.8.0.252.b09-2.amzn2.0.1.x86_64
+---> パッケージ libX11.x86_64 0:1.6.7-2.amzn2 を インストール
+--> 依存性の処理をしています: libX11-common >= 1.6.7-2.amzn2 のパッケージ: libX11-1.6.7-2.amzn2.x86_64
+--> 依存性の処理をしています: libxcb.so.1()(64bit) のパッケージ: libX11-1.6.7-2.amzn2.x86_64
+--> トランザクションの確認を実行しています。
+---> パッケージ alsa-lib.x86_64 0:1.1.4.1-2.amzn2 を インストール
+---> パッケージ copy-jdk-configs.noarch 0:3.3-10.amzn2 を インストール
+---> パッケージ cups-libs.x86_64 1:1.6.3-40.amzn2 を インストール
+--> 依存性の処理をしています: libavahi-common.so.3()(64bit) のパッケージ: 1:cups-libs-1.6.3-40.amzn2.x86_64
+--> 依存性の処理をしています: libavahi-client.so.3()(64bit) のパッケージ: 1:cups-libs-1.6.3-40.amzn2.x86_64
+---> パッケージ fontconfig.x86_64 0:2.13.0-4.3.amzn2 を インストール
+--> 依存性の処理をしています: freetype >= 2.8-7 のパッケージ: fontconfig-2.13.0-4.3.amzn2.x86_64
+--> 依存性の処理をしています: fontpackages-filesystem のパッケージ: fontconfig-2.13.0-4.3.amzn2.x86_64
+--> 依存性の処理をしています: dejavu-sans-fonts のパッケージ: fontconfig-2.13.0-4.3.amzn2.x86_64
+---> パッケージ giflib.x86_64 0:4.1.6-9.amzn2.0.2 を インストール
+--> 依存性の処理をしています: libSM.so.6()(64bit) のパッケージ: giflib-4.1.6-9.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libICE.so.6()(64bit) のパッケージ: giflib-4.1.6-9.amzn2.0.2.x86_64
+---> パッケージ gtk2.x86_64 0:2.24.31-1.amzn2.0.2 を インストール
+--> 依存性の処理をしています: pango >= 1.20.0-1 のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libXrandr >= 1.2.99.4-2 のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: atk >= 1.29.4-2 のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: hicolor-icon-theme のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: gtk-update-icon-cache のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libpangoft2-1.0.so.0()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libpangocairo-1.0.so.0()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libpango-1.0.so.0()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libgdk_pixbuf-2.0.so.0()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libcairo.so.2()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libatk-1.0.so.0()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libXrandr.so.2()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libXinerama.so.1()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libXfixes.so.3()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libXdamage.so.1()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+--> 依存性の処理をしています: libXcursor.so.1()(64bit) のパッケージ: gtk2-2.24.31-1.amzn2.0.2.x86_64
+---> パッケージ javapackages-tools.noarch 0:3.4.1-11.amzn2 を インストール
+--> 依存性の処理をしています: python-javapackages = 3.4.1-11.amzn2 のパッケージ: javapackages-tools-3.4.1-11.amzn2.noarch
+--> 依存性の処理をしています: libxslt のパッケージ: javapackages-tools-3.4.1-11.amzn2.noarch
+---> パッケージ libX11-common.noarch 0:1.6.7-2.amzn2 を インストール
+---> パッケージ libXcomposite.x86_64 0:0.4.4-4.1.amzn2.0.2 を インストール
+---> パッケージ libXext.x86_64 0:1.3.3-3.amzn2.0.2 を インストール
+---> パッケージ libXi.x86_64 0:1.7.9-1.amzn2.0.2 を インストール
+---> パッケージ libXrender.x86_64 0:0.9.10-1.amzn2.0.2 を インストール
+---> パッケージ libXtst.x86_64 0:1.2.3-1.amzn2.0.2 を インストール
+---> パッケージ libpng.x86_64 2:1.5.13-7.amzn2.0.2 を インストール
+---> パッケージ libxcb.x86_64 0:1.12-1.amzn2.0.2 を インストール
+--> 依存性の処理をしています: libXau.so.6()(64bit) のパッケージ: libxcb-1.12-1.amzn2.0.2.x86_64
+---> パッケージ lksctp-tools.x86_64 0:1.0.17-2.amzn2.0.2 を インストール
+---> パッケージ pcsc-lite-libs.x86_64 0:1.8.8-7.amzn2 を インストール
+---> パッケージ tzdata-java.noarch 0:2019c-1.amzn2 を インストール
+---> パッケージ xorg-x11-fonts-Type1.noarch 0:7.5-9.amzn2 を インストール
+--> 依存性の処理をしています: ttmkfdir のパッケージ: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+--> 依存性の処理をしています: ttmkfdir のパッケージ: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+--> 依存性の処理をしています: mkfontdir のパッケージ: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+--> 依存性の処理をしています: mkfontdir のパッケージ: xorg-x11-fonts-Type1-7.5-9.amzn2.noarch
+--> トランザクションの確認を実行しています。
+---> パッケージ atk.x86_64 0:2.22.0-3.amzn2.0.2 を インストール
+---> パッケージ avahi-libs.x86_64 0:0.6.31-19.amzn2.0.1 を インストール
+---> パッケージ cairo.x86_64 0:1.15.12-4.amzn2 を インストール
+--> 依存性の処理をしています: libpixman-1.so.0()(64bit) のパッケージ: cairo-1.15.12-4.amzn2.x86_64
+--> 依存性の処理をしています: libGL.so.1()(64bit) のパッケージ: cairo-1.15.12-4.amzn2.x86_64
+--> 依存性の処理をしています: libEGL.so.1()(64bit) のパッケージ: cairo-1.15.12-4.amzn2.x86_64
+---> パッケージ dejavu-sans-fonts.noarch 0:2.33-6.amzn2 を インストール
+--> 依存性の処理をしています: dejavu-fonts-common = 2.33-6.amzn2 のパッケージ: dejavu-sans-fonts-2.33-6.amzn2.noarch
+---> パッケージ fontpackages-filesystem.noarch 0:1.44-8.amzn2 を インストール
+---> パッケージ freetype.x86_64 0:2.4.11-15.amzn2.0.2 を 更新
+---> パッケージ freetype.x86_64 0:2.8-14.amzn2 を アップデート
+---> パッケージ gdk-pixbuf2.x86_64 0:2.36.12-3.amzn2 を インストール
+--> 依存性の処理をしています: libjasper.so.1()(64bit) のパッケージ: gdk-pixbuf2-2.36.12-3.amzn2.x86_64
+---> パッケージ gtk-update-icon-cache.x86_64 0:3.22.30-3.amzn2 を インストール
+---> パッケージ hicolor-icon-theme.noarch 0:0.12-7.amzn2 を インストール
+---> パッケージ libICE.x86_64 0:1.0.9-9.amzn2.0.2 を インストール
+---> パッケージ libSM.x86_64 0:1.2.2-2.amzn2.0.2 を インストール
+---> パッケージ libXau.x86_64 0:1.0.8-2.1.amzn2.0.2 を インストール
+---> パッケージ libXcursor.x86_64 0:1.1.15-1.amzn2 を インストール
+---> パッケージ libXdamage.x86_64 0:1.1.4-4.1.amzn2.0.2 を インストール
+---> パッケージ libXfixes.x86_64 0:5.0.3-1.amzn2.0.2 を インストール
+---> パッケージ libXinerama.x86_64 0:1.1.3-2.1.amzn2.0.2 を インストール
+---> パッケージ libXrandr.x86_64 0:1.5.1-2.amzn2.0.3 を インストール
+---> パッケージ libxslt.x86_64 0:1.1.28-5.amzn2.0.2 を インストール
+---> パッケージ pango.x86_64 0:1.42.4-4.amzn2 を インストール
+--> 依存性の処理をしています: libthai(x86-64) >= 0.1.9 のパッケージ: pango-1.42.4-4.amzn2.x86_64
+--> 依存性の処理をしています: libXft(x86-64) >= 2.0.0 のパッケージ: pango-1.42.4-4.amzn2.x86_64
+--> 依存性の処理をしています: harfbuzz(x86-64) >= 1.4.2 のパッケージ: pango-1.42.4-4.amzn2.x86_64
+--> 依存性の処理をしています: glib2(x86-64) >= 2.56.1 のパッケージ: pango-1.42.4-4.amzn2.x86_64
+--> 依存性の処理をしています: fribidi(x86-64) >= 1.0 のパッケージ: pango-1.42.4-4.amzn2.x86_64
+--> 依存性の処理をしています: libthai.so.0(LIBTHAI_0.1)(64bit) のパッケージ: pango-1.42.4-4.amzn2.x86_64
+--> 依存性の処理をしています: libthai.so.0()(64bit) のパッケージ: pango-1.42.4-4.amzn2.x86_64
+--> 依存性の処理をしています: libharfbuzz.so.0()(64bit) のパッケージ: pango-1.42.4-4.amzn2.x86_64
+--> 依存性の処理をしています: libfribidi.so.0()(64bit) のパッケージ: pango-1.42.4-4.amzn2.x86_64
+--> 依存性の処理をしています: libXft.so.2()(64bit) のパッケージ: pango-1.42.4-4.amzn2.x86_64
+---> パッケージ python-javapackages.noarch 0:3.4.1-11.amzn2 を インストール
+--> 依存性の処理をしています: python-lxml のパッケージ: python-javapackages-3.4.1-11.amzn2.noarch
+---> パッケージ ttmkfdir.x86_64 0:3.0.9-42.amzn2.0.2 を インストール
+---> パッケージ xorg-x11-font-utils.x86_64 1:7.5-21.amzn2 を インストール
+--> 依存性の処理をしています: libfontenc.so.1()(64bit) のパッケージ: 1:xorg-x11-font-utils-7.5-21.amzn2.x86_64
+--> トランザクションの確認を実行しています。
+---> パッケージ dejavu-fonts-common.noarch 0:2.33-6.amzn2 を インストール
+---> パッケージ fribidi.x86_64 0:1.0.2-1.amzn2.1 を インストール
+---> パッケージ glib2.x86_64 0:2.54.2-2.amzn2 を 更新
+---> パッケージ glib2.x86_64 0:2.56.1-5.amzn2.0.1 を アップデート
+---> パッケージ harfbuzz.x86_64 0:1.7.5-2.amzn2 を インストール
+--> 依存性の処理をしています: libgraphite2.so.3()(64bit) のパッケージ: harfbuzz-1.7.5-2.amzn2.x86_64
+---> パッケージ jasper-libs.x86_64 0:1.900.1-33.amzn2 を インストール
+---> パッケージ libXft.x86_64 0:2.3.2-2.amzn2.0.2 を インストール
+---> パッケージ libfontenc.x86_64 0:1.1.3-3.amzn2.0.2 を インストール
+---> パッケージ libglvnd-egl.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 を インストール
+--> 依存性の処理をしています: libglvnd(x86-64) = 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 のパッケージ: 1:libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64
+--> 依存性の処理をしています: mesa-libEGL(x86-64) >= 13.0.4-1 のパッケージ: 1:libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libGLdispatch.so.0()(64bit) のパッケージ: 1:libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64
+---> パッケージ libglvnd-glx.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 を インストール
+--> 依存性の処理をしています: mesa-libGL(x86-64) >= 13.0.4-1 のパッケージ: 1:libglvnd-glx-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64
+---> パッケージ libthai.x86_64 0:0.1.14-9.amzn2.0.2 を インストール
+---> パッケージ pixman.x86_64 0:0.34.0-1.amzn2.0.2 を インストール
+---> パッケージ python-lxml.x86_64 0:3.2.1-4.amzn2.0.2 を インストール
+--> トランザクションの確認を実行しています。
+---> パッケージ graphite2.x86_64 0:1.3.10-1.amzn2.0.2 を インストール
+---> パッケージ libglvnd.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1 を インストール
+---> パッケージ mesa-libEGL.x86_64 0:18.3.4-5.amzn2.0.1 を インストール
+--> 依存性の処理をしています: mesa-libgbm = 18.3.4-5.amzn2.0.1 のパッケージ: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libxshmfence.so.1()(64bit) のパッケージ: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libwayland-server.so.0()(64bit) のパッケージ: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libwayland-client.so.0()(64bit) のパッケージ: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libglapi.so.0()(64bit) のパッケージ: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libgbm.so.1()(64bit) のパッケージ: mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64
+---> パッケージ mesa-libGL.x86_64 0:18.3.4-5.amzn2.0.1 を インストール
+--> 依存性の処理をしています: libXxf86vm.so.1()(64bit) のパッケージ: mesa-libGL-18.3.4-5.amzn2.0.1.x86_64
+--> トランザクションの確認を実行しています。
+---> パッケージ libXxf86vm.x86_64 0:1.1.4-1.amzn2.0.2 を インストール
+---> パッケージ libwayland-client.x86_64 0:1.17.0-1.amzn2 を インストール
+---> パッケージ libwayland-server.x86_64 0:1.17.0-1.amzn2 を インストール
+---> パッケージ libxshmfence.x86_64 0:1.2-1.amzn2.0.2 を インストール
+---> パッケージ mesa-libgbm.x86_64 0:18.3.4-5.amzn2.0.1 を インストール
+---> パッケージ mesa-libglapi.x86_64 0:18.3.4-5.amzn2.0.1 を インストール
+--> 依存性解決を終了しました。
+
+依存性を解決しました
+
+==========================================================================================================================
+ Package                              アーキテクチャー
+                                                      バージョン                                リポジトリー         容量
+==========================================================================================================================
+インストール中:
+ java-1.8.0-openjdk-devel             x86_64          1:1.8.0.252.b09-2.amzn2.0.1               amzn2-core          9.7 M
+依存性関連でのインストールをします:
+ alsa-lib                             x86_64          1.1.4.1-2.amzn2                           amzn2-core          425 k
+ atk                                  x86_64          2.22.0-3.amzn2.0.2                        amzn2-core          258 k
+ avahi-libs                           x86_64          0.6.31-19.amzn2.0.1                       amzn2-core           61 k
+ cairo                                x86_64          1.15.12-4.amzn2                           amzn2-core          732 k
+ copy-jdk-configs                     noarch          3.3-10.amzn2                              amzn2-core           21 k
+ cups-libs                            x86_64          1:1.6.3-40.amzn2                          amzn2-core          355 k
+ dejavu-fonts-common                  noarch          2.33-6.amzn2                              amzn2-core           64 k
+ dejavu-sans-fonts                    noarch          2.33-6.amzn2                              amzn2-core          1.4 M
+ fontconfig                           x86_64          2.13.0-4.3.amzn2                          amzn2-core          253 k
+ fontpackages-filesystem              noarch          1.44-8.amzn2                              amzn2-core           10 k
+ fribidi                              x86_64          1.0.2-1.amzn2.1                           amzn2-core           79 k
+ gdk-pixbuf2                          x86_64          2.36.12-3.amzn2                           amzn2-core          568 k
+ giflib                               x86_64          4.1.6-9.amzn2.0.2                         amzn2-core           40 k
+ graphite2                            x86_64          1.3.10-1.amzn2.0.2                        amzn2-core          115 k
+ gtk-update-icon-cache                x86_64          3.22.30-3.amzn2                           amzn2-core           26 k
+ gtk2                                 x86_64          2.24.31-1.amzn2.0.2                       amzn2-core          3.4 M
+ harfbuzz                             x86_64          1.7.5-2.amzn2                             amzn2-core          279 k
+ hicolor-icon-theme                   noarch          0.12-7.amzn2                              amzn2-core           43 k
+ jasper-libs                          x86_64          1.900.1-33.amzn2                          amzn2-core          150 k
+ java-1.8.0-openjdk                   x86_64          1:1.8.0.252.b09-2.amzn2.0.1               amzn2-core          292 k
+ java-1.8.0-openjdk-headless          x86_64          1:1.8.0.252.b09-2.amzn2.0.1               amzn2-core           32 M
+ javapackages-tools                   noarch          3.4.1-11.amzn2                            amzn2-core           73 k
+ libICE                               x86_64          1.0.9-9.amzn2.0.2                         amzn2-core           67 k
+ libSM                                x86_64          1.2.2-2.amzn2.0.2                         amzn2-core           39 k
+ libX11                               x86_64          1.6.7-2.amzn2                             amzn2-core          614 k
+ libX11-common                        noarch          1.6.7-2.amzn2                             amzn2-core          164 k
+ libXau                               x86_64          1.0.8-2.1.amzn2.0.2                       amzn2-core           29 k
+ libXcomposite                        x86_64          0.4.4-4.1.amzn2.0.2                       amzn2-core           22 k
+ libXcursor                           x86_64          1.1.15-1.amzn2                            amzn2-core           30 k
+ libXdamage                           x86_64          1.1.4-4.1.amzn2.0.2                       amzn2-core           20 k
+ libXext                              x86_64          1.3.3-3.amzn2.0.2                         amzn2-core           39 k
+ libXfixes                            x86_64          5.0.3-1.amzn2.0.2                         amzn2-core           18 k
+ libXft                               x86_64          2.3.2-2.amzn2.0.2                         amzn2-core           60 k
+ libXi                                x86_64          1.7.9-1.amzn2.0.2                         amzn2-core           41 k
+ libXinerama                          x86_64          1.1.3-2.1.amzn2.0.2                       amzn2-core           14 k
+ libXrandr                            x86_64          1.5.1-2.amzn2.0.3                         amzn2-core           27 k
+ libXrender                           x86_64          0.9.10-1.amzn2.0.2                        amzn2-core           26 k
+ libXtst                              x86_64          1.2.3-1.amzn2.0.2                         amzn2-core           20 k
+ libXxf86vm                           x86_64          1.1.4-1.amzn2.0.2                         amzn2-core           17 k
+ libfontenc                           x86_64          1.1.3-3.amzn2.0.2                         amzn2-core           31 k
+ libglvnd                             x86_64          1:1.0.1-0.1.git5baa1e5.amzn2.0.1          amzn2-core           89 k
+ libglvnd-egl                         x86_64          1:1.0.1-0.1.git5baa1e5.amzn2.0.1          amzn2-core           43 k
+ libglvnd-glx                         x86_64          1:1.0.1-0.1.git5baa1e5.amzn2.0.1          amzn2-core          125 k
+ libpng                               x86_64          2:1.5.13-7.amzn2.0.2                      amzn2-core          214 k
+ libthai                              x86_64          0.1.14-9.amzn2.0.2                        amzn2-core          187 k
+ libwayland-client                    x86_64          1.17.0-1.amzn2                            amzn2-core           34 k
+ libwayland-server                    x86_64          1.17.0-1.amzn2                            amzn2-core           40 k
+ libxcb                               x86_64          1.12-1.amzn2.0.2                          amzn2-core          216 k
+ libxshmfence                         x86_64          1.2-1.amzn2.0.2                           amzn2-core          7.2 k
+ libxslt                              x86_64          1.1.28-5.amzn2.0.2                        amzn2-core          243 k
+ lksctp-tools                         x86_64          1.0.17-2.amzn2.0.2                        amzn2-core           88 k
+ mesa-libEGL                          x86_64          18.3.4-5.amzn2.0.1                        amzn2-core          108 k
+ mesa-libGL                           x86_64          18.3.4-5.amzn2.0.1                        amzn2-core          162 k
+ mesa-libgbm                          x86_64          18.3.4-5.amzn2.0.1                        amzn2-core           38 k
+ mesa-libglapi                        x86_64          18.3.4-5.amzn2.0.1                        amzn2-core           45 k
+ pango                                x86_64          1.42.4-4.amzn2                            amzn2-core          280 k
+ pcsc-lite-libs                       x86_64          1.8.8-7.amzn2                             amzn2-core           35 k
+ pixman                               x86_64          0.34.0-1.amzn2.0.2                        amzn2-core          254 k
+ python-javapackages                  noarch          3.4.1-11.amzn2                            amzn2-core           31 k
+ python-lxml                          x86_64          3.2.1-4.amzn2.0.2                         amzn2-core          1.0 M
+ ttmkfdir                             x86_64          3.0.9-42.amzn2.0.2                        amzn2-core           50 k
+ tzdata-java                          noarch          2019c-1.amzn2                             amzn2-core          187 k
+ xorg-x11-font-utils                  x86_64          1:7.5-21.amzn2                            amzn2-core          103 k
+ xorg-x11-fonts-Type1                 noarch          7.5-9.amzn2                               amzn2-core          521 k
+依存性関連での更新をします:
+ freetype                             x86_64          2.8-14.amzn2                              amzn2-core          373 k
+ glib2                                x86_64          2.56.1-5.amzn2.0.1                        amzn2-core          2.4 M
+
+トランザクションの要約
+==========================================================================================================================
+インストール  1 パッケージ (+64 個の依存関係のパッケージ)
+更新                       (  2 個の依存関係のパッケージ)
+
+総ダウンロード容量: 59 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+(1/67): atk-2.22.0-3.amzn2.0.2.x86_64.rpm                                                          | 258 kB  00:00:00     
+(2/67): alsa-lib-1.1.4.1-2.amzn2.x86_64.rpm                                                        | 425 kB  00:00:00     
+(3/67): avahi-libs-0.6.31-19.amzn2.0.1.x86_64.rpm                                                  |  61 kB  00:00:00     
+(4/67): copy-jdk-configs-3.3-10.amzn2.noarch.rpm                                                   |  21 kB  00:00:00     
+(5/67): cups-libs-1.6.3-40.amzn2.x86_64.rpm                                                        | 355 kB  00:00:00     
+(6/67): cairo-1.15.12-4.amzn2.x86_64.rpm                                                           | 732 kB  00:00:00     
+(7/67): dejavu-fonts-common-2.33-6.amzn2.noarch.rpm                                                |  64 kB  00:00:00     
+(8/67): fontconfig-2.13.0-4.3.amzn2.x86_64.rpm                                                     | 253 kB  00:00:00     
+(9/67): fontpackages-filesystem-1.44-8.amzn2.noarch.rpm                                            |  10 kB  00:00:00     
+(10/67): dejavu-sans-fonts-2.33-6.amzn2.noarch.rpm                                                 | 1.4 MB  00:00:00     
+(11/67): freetype-2.8-14.amzn2.x86_64.rpm                                                          | 373 kB  00:00:00     
+(12/67): fribidi-1.0.2-1.amzn2.1.x86_64.rpm                                                        |  79 kB  00:00:00     
+(13/67): giflib-4.1.6-9.amzn2.0.2.x86_64.rpm                                                       |  40 kB  00:00:00     
+(14/67): gdk-pixbuf2-2.36.12-3.amzn2.x86_64.rpm                                                    | 568 kB  00:00:00     
+(15/67): graphite2-1.3.10-1.amzn2.0.2.x86_64.rpm                                                   | 115 kB  00:00:00     
+(16/67): glib2-2.56.1-5.amzn2.0.1.x86_64.rpm                                                       | 2.4 MB  00:00:00     
+(17/67): gtk-update-icon-cache-3.22.30-3.amzn2.x86_64.rpm                                          |  26 kB  00:00:00     
+(18/67): harfbuzz-1.7.5-2.amzn2.x86_64.rpm                                                         | 279 kB  00:00:00     
+(19/67): hicolor-icon-theme-0.12-7.amzn2.noarch.rpm                                                |  43 kB  00:00:00     
+(20/67): jasper-libs-1.900.1-33.amzn2.x86_64.rpm                                                   | 150 kB  00:00:00     
+(21/67): java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64.rpm                                   | 292 kB  00:00:00     
+(22/67): gtk2-2.24.31-1.amzn2.0.2.x86_64.rpm                                                       | 3.4 MB  00:00:00     
+(23/67): java-1.8.0-openjdk-devel-1.8.0.252.b09-2.amzn2.0.1.x86_64.rpm                             | 9.7 MB  00:00:00     
+(24/67): javapackages-tools-3.4.1-11.amzn2.noarch.rpm                                              |  73 kB  00:00:00     
+(25/67): libICE-1.0.9-9.amzn2.0.2.x86_64.rpm                                                       |  67 kB  00:00:00     
+(26/67): libSM-1.2.2-2.amzn2.0.2.x86_64.rpm                                                        |  39 kB  00:00:00     
+(27/67): libX11-1.6.7-2.amzn2.x86_64.rpm                                                           | 614 kB  00:00:00     
+(28/67): libX11-common-1.6.7-2.amzn2.noarch.rpm                                                    | 164 kB  00:00:00     
+(29/67): libXau-1.0.8-2.1.amzn2.0.2.x86_64.rpm                                                     |  29 kB  00:00:00     
+(30/67): libXcomposite-0.4.4-4.1.amzn2.0.2.x86_64.rpm                                              |  22 kB  00:00:00     
+(31/67): libXcursor-1.1.15-1.amzn2.x86_64.rpm                                                      |  30 kB  00:00:00     
+(32/67): libXdamage-1.1.4-4.1.amzn2.0.2.x86_64.rpm                                                 |  20 kB  00:00:00     
+(33/67): libXext-1.3.3-3.amzn2.0.2.x86_64.rpm                                                      |  39 kB  00:00:00     
+(34/67): libXfixes-5.0.3-1.amzn2.0.2.x86_64.rpm                                                    |  18 kB  00:00:00     
+(35/67): libXft-2.3.2-2.amzn2.0.2.x86_64.rpm                                                       |  60 kB  00:00:00     
+(36/67): libXi-1.7.9-1.amzn2.0.2.x86_64.rpm                                                        |  41 kB  00:00:00     
+(37/67): libXinerama-1.1.3-2.1.amzn2.0.2.x86_64.rpm                                                |  14 kB  00:00:00     
+(38/67): libXrandr-1.5.1-2.amzn2.0.3.x86_64.rpm                                                    |  27 kB  00:00:00     
+(39/67): libXrender-0.9.10-1.amzn2.0.2.x86_64.rpm                                                  |  26 kB  00:00:00     
+(40/67): libXtst-1.2.3-1.amzn2.0.2.x86_64.rpm                                                      |  20 kB  00:00:00     
+(41/67): libXxf86vm-1.1.4-1.amzn2.0.2.x86_64.rpm                                                   |  17 kB  00:00:00     
+(42/67): libfontenc-1.1.3-3.amzn2.0.2.x86_64.rpm                                                   |  31 kB  00:00:00     
+(43/67): libglvnd-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64.rpm                                        |  89 kB  00:00:00     
+(44/67): libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64.rpm                                    |  43 kB  00:00:00     
+(45/67): libglvnd-glx-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64.rpm                                    | 125 kB  00:00:00     
+(46/67): libpng-1.5.13-7.amzn2.0.2.x86_64.rpm                                                      | 214 kB  00:00:00     
+(47/67): libthai-0.1.14-9.amzn2.0.2.x86_64.rpm                                                     | 187 kB  00:00:00     
+(48/67): libwayland-client-1.17.0-1.amzn2.x86_64.rpm                                               |  34 kB  00:00:00     
+(49/67): libwayland-server-1.17.0-1.amzn2.x86_64.rpm                                               |  40 kB  00:00:00     
+(50/67): libxcb-1.12-1.amzn2.0.2.x86_64.rpm                                                        | 216 kB  00:00:00     
+(51/67): libxshmfence-1.2-1.amzn2.0.2.x86_64.rpm                                                   | 7.2 kB  00:00:00     
+(52/67): libxslt-1.1.28-5.amzn2.0.2.x86_64.rpm                                                     | 243 kB  00:00:00     
+(53/67): lksctp-tools-1.0.17-2.amzn2.0.2.x86_64.rpm                                                |  88 kB  00:00:00     
+(54/67): mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64.rpm                                                 | 108 kB  00:00:00     
+(55/67): mesa-libGL-18.3.4-5.amzn2.0.1.x86_64.rpm                                                  | 162 kB  00:00:00     
+(56/67): mesa-libgbm-18.3.4-5.amzn2.0.1.x86_64.rpm                                                 |  38 kB  00:00:00     
+(57/67): mesa-libglapi-18.3.4-5.amzn2.0.1.x86_64.rpm                                               |  45 kB  00:00:00     
+(58/67): pango-1.42.4-4.amzn2.x86_64.rpm                                                           | 280 kB  00:00:00     
+(59/67): java-1.8.0-openjdk-headless-1.8.0.252.b09-2.amzn2.0.1.x86_64.rpm                          |  32 MB  00:00:01     
+(60/67): pcsc-lite-libs-1.8.8-7.amzn2.x86_64.rpm                                                   |  35 kB  00:00:00     
+(61/67): python-javapackages-3.4.1-11.amzn2.noarch.rpm                                             |  31 kB  00:00:00     
+(62/67): pixman-0.34.0-1.amzn2.0.2.x86_64.rpm                                                      | 254 kB  00:00:00     
+(63/67): ttmkfdir-3.0.9-42.amzn2.0.2.x86_64.rpm                                                    |  50 kB  00:00:00     
+(64/67): python-lxml-3.2.1-4.amzn2.0.2.x86_64.rpm                                                  | 1.0 MB  00:00:00     
+(65/67): xorg-x11-font-utils-7.5-21.amzn2.x86_64.rpm                                               | 103 kB  00:00:00     
+(66/67): tzdata-java-2019c-1.amzn2.noarch.rpm                                                      | 187 kB  00:00:00     
+(67/67): xorg-x11-fonts-Type1-7.5-9.amzn2.noarch.rpm                                               | 521 kB  00:00:00     
+--------------------------------------------------------------------------------------------------------------------------
+合計                                                                                       22 MB/s |  59 MB  00:00:02     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  更新します              : glib2-2.56.1-5.amzn2.0.1.x86_64                                                          1/69 
+  インストール中          : 2:libpng-1.5.13-7.amzn2.0.2.x86_64                                                       2/69 
+  更新します              : freetype-2.8-14.amzn2.x86_64                                                             3/69 
+  インストール中          : mesa-libglapi-18.3.4-5.amzn2.0.1.x86_64                                                  4/69 
+  インストール中          : libICE-1.0.9-9.amzn2.0.2.x86_64                                                          5/69 
+  インストール中          : 1:libglvnd-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64                                         6/69 
+  インストール中          : libxshmfence-1.2-1.amzn2.0.2.x86_64                                                      7/69 
+  インストール中          : fontpackages-filesystem-1.44-8.amzn2.noarch                                              8/69 
+  インストール中          : libxslt-1.1.28-5.amzn2.0.2.x86_64                                                        9/69 
+  インストール中          : libwayland-server-1.17.0-1.amzn2.x86_64                                                 10/69 
+  インストール中          : mesa-libgbm-18.3.4-5.amzn2.0.1.x86_64                                                   11/69 
+  インストール中          : python-lxml-3.2.1-4.amzn2.0.2.x86_64                                                    12/69 
+  インストール中          : python-javapackages-3.4.1-11.amzn2.noarch                                               13/69 
+  インストール中          : javapackages-tools-3.4.1-11.amzn2.noarch                                                14/69 
+  インストール中          : dejavu-fonts-common-2.33-6.amzn2.noarch                                                 15/69 
+  インストール中          : dejavu-sans-fonts-2.33-6.amzn2.noarch                                                   16/69 
+  インストール中          : fontconfig-2.13.0-4.3.amzn2.x86_64                                                      17/69 
+  インストール中          : libSM-1.2.2-2.amzn2.0.2.x86_64                                                          18/69 
+  インストール中          : ttmkfdir-3.0.9-42.amzn2.0.2.x86_64                                                      19/69 
+  インストール中          : atk-2.22.0-3.amzn2.0.2.x86_64                                                           20/69 
+  インストール中          : avahi-libs-0.6.31-19.amzn2.0.1.x86_64                                                   21/69 
+  インストール中          : 1:cups-libs-1.6.3-40.amzn2.x86_64                                                       22/69 
+  インストール中          : graphite2-1.3.10-1.amzn2.0.2.x86_64                                                     23/69 
+  インストール中          : harfbuzz-1.7.5-2.amzn2.x86_64                                                           24/69 
+  インストール中          : alsa-lib-1.1.4.1-2.amzn2.x86_64                                                         25/69 
+  インストール中          : copy-jdk-configs-3.3-10.amzn2.noarch                                                    26/69 
+  インストール中          : fribidi-1.0.2-1.amzn2.1.x86_64                                                          27/69 
+  インストール中          : libwayland-client-1.17.0-1.amzn2.x86_64                                                 28/69 
+  インストール中          : hicolor-icon-theme-0.12-7.amzn2.noarch                                                  29/69 
+  インストール中          : pcsc-lite-libs-1.8.8-7.amzn2.x86_64                                                     30/69 
+  インストール中          : tzdata-java-2019c-1.amzn2.noarch                                                        31/69 
+  インストール中          : libthai-0.1.14-9.amzn2.0.2.x86_64                                                       32/69 
+  インストール中          : libfontenc-1.1.3-3.amzn2.0.2.x86_64                                                     33/69 
+  インストール中          : 1:xorg-x11-font-utils-7.5-21.amzn2.x86_64                                               34/69 
+  インストール中          : xorg-x11-fonts-Type1-7.5-9.amzn2.noarch                                                 35/69 
+  インストール中          : libXau-1.0.8-2.1.amzn2.0.2.x86_64                                                       36/69 
+  インストール中          : libxcb-1.12-1.amzn2.0.2.x86_64                                                          37/69 
+  インストール中          : jasper-libs-1.900.1-33.amzn2.x86_64                                                     38/69 
+  インストール中          : libX11-common-1.6.7-2.amzn2.noarch                                                      39/69 
+  インストール中          : libX11-1.6.7-2.amzn2.x86_64                                                             40/69 
+  インストール中          : libXext-1.3.3-3.amzn2.0.2.x86_64                                                        41/69 
+  インストール中          : libXrender-0.9.10-1.amzn2.0.2.x86_64                                                    42/69 
+  インストール中          : libXfixes-5.0.3-1.amzn2.0.2.x86_64                                                      43/69 
+  インストール中          : libXi-1.7.9-1.amzn2.0.2.x86_64                                                          44/69 
+  インストール中          : libXdamage-1.1.4-4.1.amzn2.0.2.x86_64                                                   45/69 
+  インストール中          : libXcomposite-0.4.4-4.1.amzn2.0.2.x86_64                                                46/69 
+  インストール中          : gdk-pixbuf2-2.36.12-3.amzn2.x86_64                                                      47/69 
+  インストール中          : gtk-update-icon-cache-3.22.30-3.amzn2.x86_64                                            48/69 
+  インストール中          : libXtst-1.2.3-1.amzn2.0.2.x86_64                                                        49/69 
+  インストール中          : libXcursor-1.1.15-1.amzn2.x86_64                                                        50/69 
+  インストール中          : libXrandr-1.5.1-2.amzn2.0.3.x86_64                                                      51/69 
+  インストール中          : libXft-2.3.2-2.amzn2.0.2.x86_64                                                         52/69 
+  インストール中          : libXinerama-1.1.3-2.1.amzn2.0.2.x86_64                                                  53/69 
+  インストール中          : libXxf86vm-1.1.4-1.amzn2.0.2.x86_64                                                     54/69 
+  インストール中          : 1:libglvnd-glx-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64                                    55/69 
+  インストール中          : mesa-libGL-18.3.4-5.amzn2.0.1.x86_64                                                    56/69 
+  インストール中          : 1:libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64                                    57/69 
+  インストール中          : mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64                                                   58/69 
+  インストール中          : giflib-4.1.6-9.amzn2.0.2.x86_64                                                         59/69 
+  インストール中          : lksctp-tools-1.0.17-2.amzn2.0.2.x86_64                                                  60/69 
+  インストール中          : 1:java-1.8.0-openjdk-headless-1.8.0.252.b09-2.amzn2.0.1.x86_64                          61/69 
+  インストール中          : pixman-0.34.0-1.amzn2.0.2.x86_64                                                        62/69 
+  インストール中          : cairo-1.15.12-4.amzn2.x86_64                                                            63/69 
+  インストール中          : pango-1.42.4-4.amzn2.x86_64                                                             64/69 
+  インストール中          : gtk2-2.24.31-1.amzn2.0.2.x86_64                                                         65/69 
+  インストール中          : 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64                                   66/69 
+  インストール中          : 1:java-1.8.0-openjdk-devel-1.8.0.252.b09-2.amzn2.0.1.x86_64                             67/69 
+  整理中                  : freetype-2.4.11-15.amzn2.0.2.x86_64                                                     68/69 
+  整理中                  : glib2-2.54.2-2.amzn2.x86_64                                                             69/69 
+  検証中                  : libSM-1.2.2-2.amzn2.0.2.x86_64                                                           1/69 
+  検証中                  : libwayland-server-1.17.0-1.amzn2.x86_64                                                  2/69 
+  検証中                  : 2:libpng-1.5.13-7.amzn2.0.2.x86_64                                                       3/69 
+  検証中                  : libX11-1.6.7-2.amzn2.x86_64                                                              4/69 
+  検証中                  : libxslt-1.1.28-5.amzn2.0.2.x86_64                                                        5/69 
+  検証中                  : glib2-2.56.1-5.amzn2.0.1.x86_64                                                          6/69 
+  検証中                  : 1:xorg-x11-font-utils-7.5-21.amzn2.x86_64                                                7/69 
+  検証中                  : 1:libglvnd-egl-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64                                     8/69 
+  検証中                  : fontpackages-filesystem-1.44-8.amzn2.noarch                                              9/69 
+  検証中                  : mesa-libEGL-18.3.4-5.amzn2.0.1.x86_64                                                   10/69 
+  検証中                  : libXdamage-1.1.4-4.1.amzn2.0.2.x86_64                                                   11/69 
+  検証中                  : pango-1.42.4-4.amzn2.x86_64                                                             12/69 
+  検証中                  : pixman-0.34.0-1.amzn2.0.2.x86_64                                                        13/69 
+  検証中                  : dejavu-fonts-common-2.33-6.amzn2.noarch                                                 14/69 
+  検証中                  : libxcb-1.12-1.amzn2.0.2.x86_64                                                          15/69 
+  検証中                  : libXrandr-1.5.1-2.amzn2.0.3.x86_64                                                      16/69 
+  検証中                  : mesa-libGL-18.3.4-5.amzn2.0.1.x86_64                                                    17/69 
+  検証中                  : libXext-1.3.3-3.amzn2.0.2.x86_64                                                        18/69 
+  検証中                  : mesa-libglapi-18.3.4-5.amzn2.0.1.x86_64                                                 19/69 
+  検証中                  : lksctp-tools-1.0.17-2.amzn2.0.2.x86_64                                                  20/69 
+  検証中                  : libX11-common-1.6.7-2.amzn2.noarch                                                      21/69 
+  検証中                  : libXcursor-1.1.15-1.amzn2.x86_64                                                        22/69 
+  検証中                  : ttmkfdir-3.0.9-42.amzn2.0.2.x86_64                                                      23/69 
+  検証中                  : python-lxml-3.2.1-4.amzn2.0.2.x86_64                                                    24/69 
+  検証中                  : gtk-update-icon-cache-3.22.30-3.amzn2.x86_64                                            25/69 
+  検証中                  : libXcomposite-0.4.4-4.1.amzn2.0.2.x86_64                                                26/69 
+  検証中                  : python-javapackages-3.4.1-11.amzn2.noarch                                               27/69 
+  検証中                  : 1:cups-libs-1.6.3-40.amzn2.x86_64                                                       28/69 
+  検証中                  : jasper-libs-1.900.1-33.amzn2.x86_64                                                     29/69 
+  検証中                  : libXau-1.0.8-2.1.amzn2.0.2.x86_64                                                       30/69 
+  検証中                  : libfontenc-1.1.3-3.amzn2.0.2.x86_64                                                     31/69 
+  検証中                  : libthai-0.1.14-9.amzn2.0.2.x86_64                                                       32/69 
+  検証中                  : mesa-libgbm-18.3.4-5.amzn2.0.1.x86_64                                                   33/69 
+  検証中                  : xorg-x11-fonts-Type1-7.5-9.amzn2.noarch                                                 34/69 
+  検証中                  : atk-2.22.0-3.amzn2.0.2.x86_64                                                           35/69 
+  検証中                  : gtk2-2.24.31-1.amzn2.0.2.x86_64                                                         36/69 
+  検証中                  : libxshmfence-1.2-1.amzn2.0.2.x86_64                                                     37/69 
+  検証中                  : libXrender-0.9.10-1.amzn2.0.2.x86_64                                                    38/69 
+  検証中                  : cairo-1.15.12-4.amzn2.x86_64                                                            39/69 
+  検証中                  : 1:java-1.8.0-openjdk-headless-1.8.0.252.b09-2.amzn2.0.1.x86_64                          40/69 
+  検証中                  : dejavu-sans-fonts-2.33-6.amzn2.noarch                                                   41/69 
+  検証中                  : fontconfig-2.13.0-4.3.amzn2.x86_64                                                      42/69 
+  検証中                  : tzdata-java-2019c-1.amzn2.noarch                                                        43/69 
+  検証中                  : pcsc-lite-libs-1.8.8-7.amzn2.x86_64                                                     44/69 
+  検証中                  : hicolor-icon-theme-0.12-7.amzn2.noarch                                                  45/69 
+  検証中                  : harfbuzz-1.7.5-2.amzn2.x86_64                                                           46/69 
+  検証中                  : 1:java-1.8.0-openjdk-devel-1.8.0.252.b09-2.amzn2.0.1.x86_64                             47/69 
+  検証中                  : giflib-4.1.6-9.amzn2.0.2.x86_64                                                         48/69 
+  検証中                  : freetype-2.8-14.amzn2.x86_64                                                            49/69 
+  検証中                  : libXinerama-1.1.3-2.1.amzn2.0.2.x86_64                                                  50/69 
+  検証中                  : 1:libglvnd-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64                                        51/69 
+  検証中                  : libXi-1.7.9-1.amzn2.0.2.x86_64                                                          52/69 
+  検証中                  : gdk-pixbuf2-2.36.12-3.amzn2.x86_64                                                      53/69 
+  検証中                  : libXxf86vm-1.1.4-1.amzn2.0.2.x86_64                                                     54/69 
+  検証中                  : libwayland-client-1.17.0-1.amzn2.x86_64                                                 55/69 
+  検証中                  : fribidi-1.0.2-1.amzn2.1.x86_64                                                          56/69 
+  検証中                  : libXtst-1.2.3-1.amzn2.0.2.x86_64                                                        57/69 
+  検証中                  : libXft-2.3.2-2.amzn2.0.2.x86_64                                                         58/69 
+  検証中                  : copy-jdk-configs-3.3-10.amzn2.noarch                                                    59/69 
+  検証中                  : alsa-lib-1.1.4.1-2.amzn2.x86_64                                                         60/69 
+  検証中                  : 1:java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64                                   61/69 
+  検証中                  : 1:libglvnd-glx-1.0.1-0.1.git5baa1e5.amzn2.0.1.x86_64                                    62/69 
+  検証中                  : libXfixes-5.0.3-1.amzn2.0.2.x86_64                                                      63/69 
+  検証中                  : libICE-1.0.9-9.amzn2.0.2.x86_64                                                         64/69 
+  検証中                  : graphite2-1.3.10-1.amzn2.0.2.x86_64                                                     65/69 
+  検証中                  : avahi-libs-0.6.31-19.amzn2.0.1.x86_64                                                   66/69 
+  検証中                  : javapackages-tools-3.4.1-11.amzn2.noarch                                                67/69 
+  検証中                  : freetype-2.4.11-15.amzn2.0.2.x86_64                                                     68/69 
+  検証中                  : glib2-2.54.2-2.amzn2.x86_64                                                             69/69 
+
+インストール:
+  java-1.8.0-openjdk-devel.x86_64 1:1.8.0.252.b09-2.amzn2.0.1                                                             
+
+依存性関連をインストールしました:
+  alsa-lib.x86_64 0:1.1.4.1-2.amzn2                                atk.x86_64 0:2.22.0-3.amzn2.0.2                        
+  avahi-libs.x86_64 0:0.6.31-19.amzn2.0.1                          cairo.x86_64 0:1.15.12-4.amzn2                         
+  copy-jdk-configs.noarch 0:3.3-10.amzn2                           cups-libs.x86_64 1:1.6.3-40.amzn2                      
+  dejavu-fonts-common.noarch 0:2.33-6.amzn2                        dejavu-sans-fonts.noarch 0:2.33-6.amzn2                
+  fontconfig.x86_64 0:2.13.0-4.3.amzn2                             fontpackages-filesystem.noarch 0:1.44-8.amzn2          
+  fribidi.x86_64 0:1.0.2-1.amzn2.1                                 gdk-pixbuf2.x86_64 0:2.36.12-3.amzn2                   
+  giflib.x86_64 0:4.1.6-9.amzn2.0.2                                graphite2.x86_64 0:1.3.10-1.amzn2.0.2                  
+  gtk-update-icon-cache.x86_64 0:3.22.30-3.amzn2                   gtk2.x86_64 0:2.24.31-1.amzn2.0.2                      
+  harfbuzz.x86_64 0:1.7.5-2.amzn2                                  hicolor-icon-theme.noarch 0:0.12-7.amzn2               
+  jasper-libs.x86_64 0:1.900.1-33.amzn2                            java-1.8.0-openjdk.x86_64 1:1.8.0.252.b09-2.amzn2.0.1  
+  java-1.8.0-openjdk-headless.x86_64 1:1.8.0.252.b09-2.amzn2.0.1   javapackages-tools.noarch 0:3.4.1-11.amzn2             
+  libICE.x86_64 0:1.0.9-9.amzn2.0.2                                libSM.x86_64 0:1.2.2-2.amzn2.0.2                       
+  libX11.x86_64 0:1.6.7-2.amzn2                                    libX11-common.noarch 0:1.6.7-2.amzn2                   
+  libXau.x86_64 0:1.0.8-2.1.amzn2.0.2                              libXcomposite.x86_64 0:0.4.4-4.1.amzn2.0.2             
+  libXcursor.x86_64 0:1.1.15-1.amzn2                               libXdamage.x86_64 0:1.1.4-4.1.amzn2.0.2                
+  libXext.x86_64 0:1.3.3-3.amzn2.0.2                               libXfixes.x86_64 0:5.0.3-1.amzn2.0.2                   
+  libXft.x86_64 0:2.3.2-2.amzn2.0.2                                libXi.x86_64 0:1.7.9-1.amzn2.0.2                       
+  libXinerama.x86_64 0:1.1.3-2.1.amzn2.0.2                         libXrandr.x86_64 0:1.5.1-2.amzn2.0.3                   
+  libXrender.x86_64 0:0.9.10-1.amzn2.0.2                           libXtst.x86_64 0:1.2.3-1.amzn2.0.2                     
+  libXxf86vm.x86_64 0:1.1.4-1.amzn2.0.2                            libfontenc.x86_64 0:1.1.3-3.amzn2.0.2                  
+  libglvnd.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1                 libglvnd-egl.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1   
+  libglvnd-glx.x86_64 1:1.0.1-0.1.git5baa1e5.amzn2.0.1             libpng.x86_64 2:1.5.13-7.amzn2.0.2                     
+  libthai.x86_64 0:0.1.14-9.amzn2.0.2                              libwayland-client.x86_64 0:1.17.0-1.amzn2              
+  libwayland-server.x86_64 0:1.17.0-1.amzn2                        libxcb.x86_64 0:1.12-1.amzn2.0.2                       
+  libxshmfence.x86_64 0:1.2-1.amzn2.0.2                            libxslt.x86_64 0:1.1.28-5.amzn2.0.2                    
+  lksctp-tools.x86_64 0:1.0.17-2.amzn2.0.2                         mesa-libEGL.x86_64 0:18.3.4-5.amzn2.0.1                
+  mesa-libGL.x86_64 0:18.3.4-5.amzn2.0.1                           mesa-libgbm.x86_64 0:18.3.4-5.amzn2.0.1                
+  mesa-libglapi.x86_64 0:18.3.4-5.amzn2.0.1                        pango.x86_64 0:1.42.4-4.amzn2                          
+  pcsc-lite-libs.x86_64 0:1.8.8-7.amzn2                            pixman.x86_64 0:0.34.0-1.amzn2.0.2                     
+  python-javapackages.noarch 0:3.4.1-11.amzn2                      python-lxml.x86_64 0:3.2.1-4.amzn2.0.2                 
+  ttmkfdir.x86_64 0:3.0.9-42.amzn2.0.2                             tzdata-java.noarch 0:2019c-1.amzn2                     
+  xorg-x11-font-utils.x86_64 1:7.5-21.amzn2                        xorg-x11-fonts-Type1.noarch 0:7.5-9.amzn2              
+
+依存性を更新しました:
+  freetype.x86_64 0:2.8-14.amzn2                             glib2.x86_64 0:2.56.1-5.amzn2.0.1                            
+
+完了しました!
+[vagrant@localhost /]$ 
+
+[vagrant@localhost /]$ sudo alternatives --config java
+
+1 プログラムがあり 'java' を提供します。
+
+  選択       コマンド
+-----------------------------------------------
+*+ 1           java-1.8.0-openjdk.x86_64 (/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre/bin/java)
+
+Enter を押して現在の選択 [+] を保持するか、選択番号を入力します:1
+[vagrant@localhost /]$ java -version
+openjdk version "1.8.0_252"
+OpenJDK Runtime Environment (build 1.8.0_252-b09)
+OpenJDK 64-Bit Server VM (build 25.252-b09, mixed mode)
+
+
+[vagrant@localhost /]$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+which: no ruby in (/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/vagrant/.local/bin:/home/vagrant/bin)
+You must install Git before installing Homebrew. See:
+  https://docs.brew.sh/Installation
+
+  vagrant@localhost /]$ sudo yum install git
+読み込んだプラグイン:langpacks, priorities, update-motd
+依存性の解決をしています
+--> トランザクションの確認を実行しています。
+---> パッケージ git.x86_64 0:2.23.3-1.amzn2.0.1 を インストール
+--> 依存性の処理をしています: perl-Git = 2.23.3-1.amzn2.0.1 のパッケージ: git-2.23.3-1.amzn2.0.1.x86_64
+--> 依存性の処理をしています: git-core-doc = 2.23.3-1.amzn2.0.1 のパッケージ: git-2.23.3-1.amzn2.0.1.x86_64
+--> 依存性の処理をしています: git-core = 2.23.3-1.amzn2.0.1 のパッケージ: git-2.23.3-1.amzn2.0.1.x86_64
+--> 依存性の処理をしています: emacs-filesystem >= 25.3 のパッケージ: git-2.23.3-1.amzn2.0.1.x86_64
+--> 依存性の処理をしています: perl(Term::ReadKey) のパッケージ: git-2.23.3-1.amzn2.0.1.x86_64
+--> 依存性の処理をしています: perl(Git::I18N) のパッケージ: git-2.23.3-1.amzn2.0.1.x86_64
+--> 依存性の処理をしています: perl(Git) のパッケージ: git-2.23.3-1.amzn2.0.1.x86_64
+--> 依存性の処理をしています: libsecret-1.so.0()(64bit) のパッケージ: git-2.23.3-1.amzn2.0.1.x86_64
+--> トランザクションの確認を実行しています。
+---> パッケージ emacs-filesystem.noarch 1:25.3-3.amzn2.0.1 を インストール
+---> パッケージ git-core.x86_64 0:2.23.3-1.amzn2.0.1 を インストール
+--> 依存性の処理をしています: libcurl >= 7.61 のパッケージ: git-core-2.23.3-1.amzn2.0.1.x86_64
+---> パッケージ git-core-doc.noarch 0:2.23.3-1.amzn2.0.1 を インストール
+---> パッケージ libsecret.x86_64 0:0.18.5-2.amzn2.0.2 を インストール
+---> パッケージ perl-Git.noarch 0:2.23.3-1.amzn2.0.1 を インストール
+--> 依存性の処理をしています: perl(Error) のパッケージ: perl-Git-2.23.3-1.amzn2.0.1.noarch
+---> パッケージ perl-TermReadKey.x86_64 0:2.30-20.amzn2.0.2 を インストール
+--> トランザクションの確認を実行しています。
+---> パッケージ libcurl.x86_64 0:7.55.1-12.amzn2.0.7 を 更新
+--> 依存性の処理をしています: libcurl(x86-64) = 7.55.1-12.amzn2.0.7 のパッケージ: curl-7.55.1-12.amzn2.0.7.x86_64
+---> パッケージ libcurl.x86_64 0:7.61.1-12.amzn2.0.1 を アップデート
+---> パッケージ perl-Error.noarch 1:0.17020-2.amzn2 を インストール
+--> トランザクションの確認を実行しています。
+---> パッケージ curl.x86_64 0:7.55.1-12.amzn2.0.7 を 更新
+---> パッケージ curl.x86_64 0:7.61.1-12.amzn2.0.1 を アップデート
+--> 依存性解決を終了しました。
+
+依存性を解決しました
+
+==========================================================================================================================
+ Package                         アーキテクチャー      バージョン                         リポジトリー               容量
+==========================================================================================================================
+インストール中:
+ git                             x86_64                2.23.3-1.amzn2.0.1                 amzn2-core                135 k
+依存性関連でのインストールをします:
+ emacs-filesystem                noarch                1:25.3-3.amzn2.0.1                 amzn2-core                 64 k
+ git-core                        x86_64                2.23.3-1.amzn2.0.1                 amzn2-core                5.0 M
+ git-core-doc                    noarch                2.23.3-1.amzn2.0.1                 amzn2-core                2.4 M
+ libsecret                       x86_64                0.18.5-2.amzn2.0.2                 amzn2-core                153 k
+ perl-Error                      noarch                1:0.17020-2.amzn2                  amzn2-core                 32 k
+ perl-Git                        noarch                2.23.3-1.amzn2.0.1                 amzn2-core                 47 k
+ perl-TermReadKey                x86_64                2.30-20.amzn2.0.2                  amzn2-core                 31 k
+依存性関連での更新をします:
+ curl                            x86_64                7.61.1-12.amzn2.0.1                amzn2-core                342 k
+ libcurl                         x86_64                7.61.1-12.amzn2.0.1                amzn2-core                286 k
+
+トランザクションの要約
+==========================================================================================================================
+インストール  1 パッケージ (+7 個の依存関係のパッケージ)
+更新                       ( 2 個の依存関係のパッケージ)
+
+総ダウンロード容量: 8.5 M
+Is this ok [y/d/N]: y
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+(1/10): emacs-filesystem-25.3-3.amzn2.0.1.noarch.rpm                                               |  64 kB  00:00:00     
+(2/10): git-2.23.3-1.amzn2.0.1.x86_64.rpm                                                          | 135 kB  00:00:00     
+(3/10): curl-7.61.1-12.amzn2.0.1.x86_64.rpm                                                        | 342 kB  00:00:00     
+(4/10): git-core-2.23.3-1.amzn2.0.1.x86_64.rpm                                                     | 5.0 MB  00:00:00     
+(5/10): git-core-doc-2.23.3-1.amzn2.0.1.noarch.rpm                                                 | 2.4 MB  00:00:00     
+(6/10): libsecret-0.18.5-2.amzn2.0.2.x86_64.rpm                                                    | 153 kB  00:00:00     
+(7/10): perl-Error-0.17020-2.amzn2.noarch.rpm                                                      |  32 kB  00:00:00     
+(8/10): libcurl-7.61.1-12.amzn2.0.1.x86_64.rpm                                                     | 286 kB  00:00:00     
+(9/10): perl-Git-2.23.3-1.amzn2.0.1.noarch.rpm                                                     |  47 kB  00:00:00     
+(10/10): perl-TermReadKey-2.30-20.amzn2.0.2.x86_64.rpm                                             |  31 kB  00:00:00     
+--------------------------------------------------------------------------------------------------------------------------
+合計                                                                                      2.4 MB/s | 8.5 MB  00:00:03     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  更新します              : libcurl-7.61.1-12.amzn2.0.1.x86_64                                                       1/12 
+  インストール中          : git-core-2.23.3-1.amzn2.0.1.x86_64                                                       2/12 
+  インストール中          : git-core-doc-2.23.3-1.amzn2.0.1.noarch                                                   3/12 
+  インストール中          : 1:perl-Error-0.17020-2.amzn2.noarch                                                      4/12 
+  インストール中          : perl-TermReadKey-2.30-20.amzn2.0.2.x86_64                                                5/12 
+  インストール中          : libsecret-0.18.5-2.amzn2.0.2.x86_64                                                      6/12 
+  インストール中          : 1:emacs-filesystem-25.3-3.amzn2.0.1.noarch                                               7/12 
+  インストール中          : perl-Git-2.23.3-1.amzn2.0.1.noarch                                                       8/12 
+  インストール中          : git-2.23.3-1.amzn2.0.1.x86_64                                                            9/12 
+  更新します              : curl-7.61.1-12.amzn2.0.1.x86_64                                                         10/12 
+  整理中                  : curl-7.55.1-12.amzn2.0.7.x86_64                                                                                                                              11/12 
+  整理中                  : libcurl-7.55.1-12.amzn2.0.7.x86_64                                                                                                                           12/12 
+  検証中                  : 1:emacs-filesystem-25.3-3.amzn2.0.1.noarch                                                                                                                    1/12 
+  検証中                  : git-2.23.3-1.amzn2.0.1.x86_64                                                                                                                                 2/12 
+  検証中                  : libsecret-0.18.5-2.amzn2.0.2.x86_64                                                                                                                           3/12 
+  検証中                  : perl-TermReadKey-2.30-20.amzn2.0.2.x86_64                                                                                                                     4/12 
+  検証中                  : libcurl-7.61.1-12.amzn2.0.1.x86_64                                                                                                                            5/12 
+  検証中                  : git-core-2.23.3-1.amzn2.0.1.x86_64                                                                                                                            6/12 
+  検証中                  : curl-7.61.1-12.amzn2.0.1.x86_64                                                                                                                               7/12 
+  検証中                  : 1:perl-Error-0.17020-2.amzn2.noarch                                                                                                                           8/12 
+  検証中                  : perl-Git-2.23.3-1.amzn2.0.1.noarch                                                                                                                            9/12 
+  検証中                  : git-core-doc-2.23.3-1.amzn2.0.1.noarch                                                                                                                       10/12 
+  検証中                  : libcurl-7.55.1-12.amzn2.0.7.x86_64                                                                                                                           11/12 
+  検証中                  : curl-7.55.1-12.amzn2.0.7.x86_64                                                                                                                              12/12 
+
+インストール:
+  git.x86_64 0:2.23.3-1.amzn2.0.1                                                                                                                                                              
+
+依存性関連をインストールしました:
+  emacs-filesystem.noarch 1:25.3-3.amzn2.0.1        git-core.x86_64 0:2.23.3-1.amzn2.0.1        git-core-doc.noarch 0:2.23.3-1.amzn2.0.1           libsecret.x86_64 0:0.18.5-2.amzn2.0.2       
+  perl-Error.noarch 1:0.17020-2.amzn2               perl-Git.noarch 0:2.23.3-1.amzn2.0.1        perl-TermReadKey.x86_64 0:2.30-20.amzn2.0.2       
+
+依存性を更新しました:
+  curl.x86_64 0:7.61.1-12.amzn2.0.1                                                            libcurl.x86_64 0:7.61.1-12.amzn2.0.1                                                           
+
+完了しました!
+
+vagrant@localhost /]$ cd /usr/local/lib/
+[vagrant@localhost lib]$ sudo wget http://ftp.meisei-u.ac.jp/mirror/apache/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+--2020-07-12 03:28:57--  http://ftp.meisei-u.ac.jp/mirror/apache/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+ftp.meisei-u.ac.jp (ftp.meisei-u.ac.jp) をDNSに問いあわせています... 160.194.204.25
+ftp.meisei-u.ac.jp (ftp.meisei-u.ac.jp)|160.194.204.25|:80 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 9506321 (9.1M) [application/x-gzip]
+`apache-maven-3.6.3-bin.tar.gz' に保存中
+
+100%[=====================================================================================================================================================>] 9,506,321   31.9MB/s 時間 0.3s   
+
+2020-07-12 03:28:58 (31.9 MB/s) - `apache-maven-3.6.3-bin.tar.gz' へ保存完了 [9506321/9506321]
+
+vagrant@localhost lib]$ sudo tar -xzvf apache-maven-3.6.3-bin.tar.gz
+apache-maven-3.6.3/README.txt
+apache-maven-3.6.3/LICENSE
+apache-maven-3.6.3/NOTICE
+apache-maven-3.6.3/lib/
+apache-maven-3.6.3/lib/cdi-api.license
+apache-maven-3.6.3/lib/commons-cli.license
+apache-maven-3.6.3/lib/commons-io.license
+apache-maven-3.6.3/lib/commons-lang3.license
+apache-maven-3.6.3/lib/guava.license
+apache-maven-3.6.3/lib/guice.license
+apache-maven-3.6.3/lib/jansi.license
+apache-maven-3.6.3/lib/javax.inject.license
+apache-maven-3.6.3/lib/jcl-over-slf4j.license
+apache-maven-3.6.3/lib/jsoup.license
+apache-maven-3.6.3/lib/jsr250-api.license
+apache-maven-3.6.3/lib/org.eclipse.sisu.inject.license
+apache-maven-3.6.3/lib/org.eclipse.sisu.plexus.license
+apache-maven-3.6.3/lib/plexus-cipher.license
+apache-maven-3.6.3/lib/plexus-component-annotations.license
+apache-maven-3.6.3/lib/plexus-interpolation.license
+apache-maven-3.6.3/lib/plexus-sec-dispatcher.license
+apache-maven-3.6.3/lib/plexus-utils.license
+apache-maven-3.6.3/lib/slf4j-api.license
+apache-maven-3.6.3/boot/
+apache-maven-3.6.3/boot/plexus-classworlds.license
+apache-maven-3.6.3/lib/jansi-native/
+apache-maven-3.6.3/lib/jansi-native/freebsd32/
+apache-maven-3.6.3/lib/jansi-native/freebsd64/
+apache-maven-3.6.3/lib/jansi-native/linux32/
+apache-maven-3.6.3/lib/jansi-native/linux64/
+apache-maven-3.6.3/lib/jansi-native/osx/
+apache-maven-3.6.3/lib/jansi-native/windows32/
+apache-maven-3.6.3/lib/jansi-native/windows64/
+apache-maven-3.6.3/lib/jansi-native/freebsd32/libjansi.so
+apache-maven-3.6.3/lib/jansi-native/freebsd64/libjansi.so
+apache-maven-3.6.3/lib/jansi-native/linux32/libjansi.so
+apache-maven-3.6.3/lib/jansi-native/linux64/libjansi.so
+apache-maven-3.6.3/lib/jansi-native/osx/libjansi.jnilib
+apache-maven-3.6.3/lib/jansi-native/windows32/jansi.dll
+apache-maven-3.6.3/lib/jansi-native/windows64/jansi.dll
+apache-maven-3.6.3/bin/m2.conf
+apache-maven-3.6.3/bin/mvn.cmd
+apache-maven-3.6.3/bin/mvnDebug.cmd
+apache-maven-3.6.3/bin/mvn
+apache-maven-3.6.3/bin/mvnDebug
+apache-maven-3.6.3/bin/mvnyjp
+apache-maven-3.6.3/conf/
+apache-maven-3.6.3/conf/logging/
+apache-maven-3.6.3/conf/logging/simplelogger.properties
+apache-maven-3.6.3/conf/settings.xml
+apache-maven-3.6.3/conf/toolchains.xml
+apache-maven-3.6.3/lib/ext/
+apache-maven-3.6.3/lib/jansi-native/
+apache-maven-3.6.3/lib/ext/README.txt
+apache-maven-3.6.3/lib/jansi-native/README.txt
+apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar
+apache-maven-3.6.3/lib/maven-embedder-3.6.3.jar
+apache-maven-3.6.3/lib/maven-settings-3.6.3.jar
+apache-maven-3.6.3/lib/maven-settings-builder-3.6.3.jar
+apache-maven-3.6.3/lib/maven-plugin-api-3.6.3.jar
+apache-maven-3.6.3/lib/maven-model-3.6.3.jar
+apache-maven-3.6.3/lib/maven-model-builder-3.6.3.jar
+apache-maven-3.6.3/lib/maven-builder-support-3.6.3.jar
+apache-maven-3.6.3/lib/maven-resolver-api-1.4.1.jar
+apache-maven-3.6.3/lib/maven-resolver-util-1.4.1.jar
+apache-maven-3.6.3/lib/maven-shared-utils-3.2.1.jar
+apache-maven-3.6.3/lib/commons-io-2.5.jar
+apache-maven-3.6.3/lib/guice-4.2.1-no_aop.jar
+apache-maven-3.6.3/lib/guava-25.1-android.jar
+apache-maven-3.6.3/lib/javax.inject-1.jar
+apache-maven-3.6.3/lib/jsr250-api-1.0.jar
+apache-maven-3.6.3/lib/plexus-utils-3.2.1.jar
+apache-maven-3.6.3/lib/plexus-sec-dispatcher-1.4.jar
+apache-maven-3.6.3/lib/plexus-cipher-1.7.jar
+apache-maven-3.6.3/lib/slf4j-api-1.7.29.jar
+apache-maven-3.6.3/lib/commons-lang3-3.8.1.jar
+apache-maven-3.6.3/lib/maven-core-3.6.3.jar
+apache-maven-3.6.3/lib/maven-repository-metadata-3.6.3.jar
+apache-maven-3.6.3/lib/maven-artifact-3.6.3.jar
+apache-maven-3.6.3/lib/maven-resolver-provider-3.6.3.jar
+apache-maven-3.6.3/lib/maven-resolver-impl-1.4.1.jar
+apache-maven-3.6.3/lib/maven-resolver-spi-1.4.1.jar
+apache-maven-3.6.3/lib/org.eclipse.sisu.inject-0.3.4.jar
+apache-maven-3.6.3/lib/plexus-component-annotations-2.1.0.jar
+apache-maven-3.6.3/lib/maven-compat-3.6.3.jar
+apache-maven-3.6.3/lib/plexus-interpolation-1.25.jar
+apache-maven-3.6.3/lib/wagon-provider-api-3.3.4.jar
+apache-maven-3.6.3/lib/org.eclipse.sisu.plexus-0.3.4.jar
+apache-maven-3.6.3/lib/cdi-api-1.0.jar
+apache-maven-3.6.3/lib/commons-cli-1.4.jar
+apache-maven-3.6.3/lib/wagon-http-3.3.4-shaded.jar
+apache-maven-3.6.3/lib/jsoup-1.12.1.jar
+apache-maven-3.6.3/lib/jcl-over-slf4j-1.7.29.jar
+apache-maven-3.6.3/lib/wagon-file-3.3.4.jar
+apache-maven-3.6.3/lib/maven-resolver-connector-basic-1.4.1.jar
+apache-maven-3.6.3/lib/maven-resolver-transport-wagon-1.4.1.jar
+apache-maven-3.6.3/lib/maven-slf4j-provider-3.6.3.jar
+apache-maven-3.6.3/lib/jansi-1.17.1.jar
+
+sudo mv apache-maven-3.6.3 /opt/
+
+[vagrant@localhost lib]$ cd /opt/
+[vagrant@localhost opt]$ sudo ln -s /opt/apache-maven-3.6.3 apache-maven
+[vagrant@localhost opt]$ 
+[vagrant@localhost opt]$ ls -l
+合計 0
+drwxr-xr-x 9 root root 147  7月 12 03:10 VBoxGuestAdditions-5.2.20
+lrwxrwxrwx 1 root root  23  7月 12 03:29 apache-maven -> /opt/apache-maven-3.6.3
+drwxr-xr-x 6 root root  99  7月 12 03:29 apache-maven-3.6.3
+drwxr-xr-x 2 root root   6  8月 16  2018 rh
+[vagrant@localhost opt]$ 
+
+
+[vagrant@localhost ~]$ mvn --version
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: /opt/apache-maven
+Java version: 1.8.0_252, vendor: Oracle Corporation, runtime: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64/jre
+Default locale: ja_JP, platform encoding: UTF-8
+OS name: "linux", version: "4.14.88-88.76.amzn2.x86_64", arch: "amd64", family: "unix"
+
+[vagrant@localhost spring-boot]$ mvn -B archetype:generate -DgroupId=edu.self -DartifactId=my_first_spring_boot -Dversion=1.0.0-SNAPSHOT -DarchetypeArtifactId=maven-archetype-quickstart
+
+[INFO] Scanning for projects...
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 2.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 52 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 84 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom (6.4 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 102 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom (15 kB at 61 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar (27 kB at 83 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom (5.6 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar (27 kB at 101 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.pom (21 kB at 78 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/23/maven-parent-23.pom (33 kB at 114 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/13/apache-13.pom (14 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar (124 kB at 231 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom (4.7 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom (12 kB at 51 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/9/maven-parent-9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/9/maven-parent-9.pom (33 kB at 98 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/4/apache-4.pom (4.5 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar (24 kB at 86 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom (15 kB at 59 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom (13 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/15/maven-parent-15.pom (24 kB at 92 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/6/apache-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/6/apache-6.pom (13 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar (209 kB at 329 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom (11 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar (153 kB at 318 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.pom (11 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom (5.0 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom (41 kB at 148 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom (16 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.5.3/maven-release-plugin-2.5.3.jar (53 kB at 133 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 87 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 26 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (918 B at 3.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.1.2/maven-archetype-plugin-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.1.2/maven-archetype-plugin-3.1.2.pom (11 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/3.1.2/maven-archetype-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/3.1.2/maven-archetype-3.1.2.pom (12 kB at 42 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/33/maven-parent-33.pom (44 kB at 108 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/21/apache-21.pom (17 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.1.2/maven-archetype-plugin-3.1.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/3.1.2/maven-archetype-plugin-3.1.2.jar (97 kB at 268 kB/s)
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] >>> maven-archetype-plugin:3.1.2:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO] 
+[INFO] <<< maven-archetype-plugin:3.1.2:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-archetype-plugin:3.1.2:generate (default-cli) @ standalone-pom ---
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.1.2/archetype-catalog-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.1.2/archetype-catalog-3.1.2.pom (2.0 kB at 7.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-models/3.1.2/archetype-models-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-models/3.1.2/archetype-models-3.1.2.pom (2.8 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.pom (4.8 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom (23 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.1.2/archetype-descriptor-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.1.2/archetype-descriptor-3.1.2.pom (2.0 kB at 6.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.1.2/archetype-common-3.1.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.1.2/archetype-common-3.1.2.pom (18 kB at 73 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.16/groovy-2.4.16.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.16/groovy-2.4.16.pom (19 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom (6.3 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom (14 kB at 63 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/jchardet/jchardet/1.0/jchardet-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/jchardet/jchardet/1.0/jchardet-1.0.pom (1.3 kB at 5.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom (770 B at 3.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom (5.0 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/4.0/plexus-4.0.pom (22 kB at 88 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom (14 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jdom/jdom/1.0/jdom-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jdom/jdom/1.0/jdom-1.0.pom (1.2 kB at 3.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.pom (3.9 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0/maven-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.0/maven-3.0.pom (22 kB at 76 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0/maven-core-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0/maven-core-3.0.pom (6.6 kB at 30 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0/maven-settings-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0/maven-settings-3.0.pom (1.9 kB at 7.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.pom (2.2 kB at 7.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom (910 B at 3.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.18/plexus-components-1.1.18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.18/plexus-components-1.1.18.pom (5.4 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.7/plexus-2.0.7.pom (17 kB at 77 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom (3.0 kB at 9.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/12/spice-parent-12.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/12/spice-parent-12.pom (6.8 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/4/forge-parent-4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/4/forge-parent-4.pom (8.4 kB at 36 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom (2.1 kB at 8.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.pom (1.9 kB at 6.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom (1.9 kB at 7.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom (2.3 kB at 10 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom (5.4 kB at 24 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-plexus/1.4.2/guice-plexus-1.4.2.pom (3.1 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/inject/guice-bean/1.4.2/guice-bean-1.4.2.pom (2.6 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject/1.4.2/sisu-inject-1.4.2.pom (1.2 kB at 5.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-parent/1.4.2/sisu-parent-1.4.2.pom (7.8 kB at 35 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/6/forge-parent-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/6/forge-parent-6.pom (11 kB at 47 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom (4.0 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom (17 kB at 75 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom (5.5 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom (11 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.pom (2.2 kB at 9.1 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.pom (2.5 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.pom (1.7 kB at 6.6 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-parent/1.7/aether-parent-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-parent/1.7/aether-parent-1.7.pom (7.7 kB at 27 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.7/aether-util-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.7/aether-util-1.7.pom (2.1 kB at 6.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.pom (3.7 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.pom (1.7 kB at 7.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.pom (4.9 kB at 16 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/31/maven-shared-components-31.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/31/maven-shared-components-31.pom (5.1 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom (43 kB at 180 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/19/apache-19.pom (15 kB at 46 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom (5.6 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom (4.6 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom (41 kB at 177 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom (16 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom (11 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom (47 kB at 125 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom (15 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.pom (11 kB at 45 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/33/maven-shared-components-33.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/33/maven-shared-components-33.pom (5.1 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom (4.8 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom (5.0 kB at 22 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom (14 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom (68 kB at 212 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom (2.7 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom (12 kB at 54 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.8/plexus-velocity-1.1.8.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.8/plexus-velocity-1.1.8.pom (1.9 kB at 8.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom (2.8 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom (15 kB at 62 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom (13 kB at 44 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom (22 kB at 74 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom (11 kB at 38 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom (14 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.3.3/wagon-provider-api-3.3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.3.3/wagon-provider-api-3.3.3.pom (1.9 kB at 5.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/3.3.3/wagon-3.3.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/3.3.3/wagon-3.3.3.pom (21 kB at 70 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.pom (726 B at 3.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.0-alpha-6/plexus-interactivity-1.0-alpha-6.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.0-alpha-6/plexus-interactivity-1.0-alpha-6.pom (1.1 kB at 4.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.9/plexus-components-1.1.9.pom (2.4 kB at 11 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.10/plexus-1.0.10.pom (8.2 kB at 21 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.0/maven-script-interpreter-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.0/maven-script-interpreter-1.0.pom (3.8 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom (8.7 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/1.8.3/groovy-1.8.3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/1.8.3/groovy-1.8.3.pom (32 kB at 130 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7.pom (632 B at 2.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm/3.2/asm-3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm/3.2/asm-3.2.pom (264 B at 1.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.2/asm-parent-3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-parent/3.2/asm-parent-3.2.pom (4.4 kB at 13 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.2/asm-commons-3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-commons/3.2/asm-commons-3.2.pom (415 B at 1.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.2/asm-tree-3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-tree/3.2/asm-tree-3.2.pom (404 B at 1.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-util/3.2/asm-util-3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-util/3.2/asm-util-3.2.pom (409 B at 1.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/asm/asm-analysis/3.2/asm-analysis-3.2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/asm/asm-analysis/3.2/asm-analysis-3.2.pom (417 B at 1.9 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/beanshell/bsh/2.0b4/bsh-2.0b4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/beanshell/bsh/2.0b4/bsh-2.0b4.pom (1.2 kB at 4.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/beanshell/beanshell/2.0b4/beanshell-2.0b4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/beanshell/beanshell/2.0b4/beanshell-2.0b4.pom (1.4 kB at 4.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.1/ant-1.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.1/ant-1.8.1.pom (8.8 kB at 39 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.8.1/ant-parent-1.8.1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.8.1/ant-parent-1.8.1.pom (4.3 kB at 9.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.1.2/archetype-catalog-3.1.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.1.2/archetype-descriptor-3.1.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.1.2/archetype-common-3.1.2.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.16/groovy-2.4.16.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-catalog/3.1.2/archetype-catalog-3.1.2.jar (19 kB at 81 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sourceforge/jchardet/jchardet/1.0/jchardet-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sourceforge/jchardet/jchardet/1.0/jchardet-1.0.jar (27 kB at 60 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-common/3.1.2/archetype-common-3.1.2.jar (185 kB at 369 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/jdom/jdom/1.0/jdom-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar (4.3 kB at 6.3 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jdom/jdom/1.0/jdom-1.0.jar (153 kB at 172 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar (52 kB at 57 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar (38 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.8/plexus-velocity-1.1.8.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.jar (174 kB at 139 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/archetype-descriptor/3.1.2/archetype-descriptor-3.1.2.jar (24 kB at 18 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-velocity/1.1.8/plexus-velocity-1.1.8.jar (7.9 kB at 5.8 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.3.3/wagon-provider-api-3.3.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.jar (450 kB at 278 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/3.3.3/wagon-provider-api-3.3.3.jar (56 kB at 34 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-6/plexus-interactivity-api-1.0-alpha-6.jar (12 kB at 6.4 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar (263 kB at 141 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar (262 kB at 132 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar (49 kB at 23 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar (202 kB at 95 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0/maven-core-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar (1.3 MB at 560 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar (153 kB at 66 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.0/maven-core-3.0.jar (527 kB at 215 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar (30 kB at 12 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy/2.4.16/groovy-2.4.16.jar (4.7 MB at 1.8 MB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar (148 kB at 56 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar (51 kB at 19 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar (14 kB at 4.7 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar (106 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar (472 kB at 162 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar (108 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar (74 kB at 25 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar (61 kB at 20 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar (29 kB at 9.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar (13 kB at 4.2 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar (46 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.jar (165 kB at 50 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar (47 kB at 14 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar (33 kB at 9.7 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar (167 kB at 49 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar (128 kB at 37 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.0/maven-script-interpreter-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar (61 kB at 17 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar (26 kB at 7.2 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.1/ant-1.8.1.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar (335 kB at 92 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-script-interpreter/1.0/maven-script-interpreter-1.0.jar (21 kB at 5.5 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar (282 kB at 72 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.8.1/ant-1.8.1.jar (1.5 MB at 380 kB/s)
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar (575 kB at 138 kB/s)
+[INFO] Generating project in Batch mode
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.0/maven-archetype-quickstart-1.0.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.0/maven-archetype-quickstart-1.0.pom (703 B at 3.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/2/maven-archetype-bundles-2.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/2/maven-archetype-bundles-2.pom (1.5 kB at 6.0 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype-parent/1/maven-archetype-parent-1.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype-parent/1/maven-archetype-parent-1.pom (1.3 kB at 4.5 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom (10.0 kB at 33 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom (3.4 kB at 15 kB/s)
+[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.0/maven-archetype-quickstart-1.0.jar
+[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.0/maven-archetype-quickstart-1.0.jar (4.3 kB at 16 kB/s)
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: maven-archetype-quickstart:1.0
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: basedir, Value: /vagrant/spring-boot
+[INFO] Parameter: package, Value: edu.self
+[INFO] Parameter: groupId, Value: edu.self
+[INFO] Parameter: artifactId, Value: my_first_spring_boot
+[INFO] Parameter: packageName, Value: edu.self
+[INFO] Parameter: version, Value: 1.0.0-SNAPSHOT
+[INFO] project created from Old (1.x) Archetype in dir: /vagrant/spring-boot/my_first_spring_boot
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  51.966 s
+[INFO] Finished at: 2020-07-12T03:33:17Z
+[INFO] ------------------------------------------------------------------------
